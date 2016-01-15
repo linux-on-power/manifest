@@ -3,6 +3,8 @@
   <remote  name="cros"
            fetch="https://chromium.googlesource.com/"
            review="gerrit.chromium.org/gerrit" />
+  <remote  name="lop"
+           fetch="https://github.com/linux-on-power/" />
   <remote  name="github"
            fetch=".." />
   <remote  name="private"

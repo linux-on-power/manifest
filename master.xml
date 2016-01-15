@@ -12,7 +12,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" remote="cros" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
-  <project path="chromite" name="coreos/chromite" groups="minilayout" >
+  <project path="chromite" name="chromite" groups="minilayout" remote="lop" >
     <copyfile src="AUTHORS" dest="AUTHORS" />
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
@@ -26,15 +26,15 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/factory-utils"
            groups="minilayout" remote="cros" />
 
-  <project path="src/scripts" name="coreos/scripts"
-           groups="minilayout" />
+  <project path="src/scripts" name="scripts"
+           groups="minilayout" remote="lop" />
 
   <project path="src/third_party/portage-stable"
-           name="coreos/portage-stable"
-           groups="minilayout" />
+           name="portage-stable"
+           groups="minilayout" remote="lop" />
   <project path="src/third_party/coreos-overlay"
-           name="coreos/coreos-overlay"
-           groups="minilayout" />
+           name="coreos-overlay"
+           groups="minilayout" remote="lop" />
 
   <project path="src/third_party/efunctions"
            name="coreos/efunctions"
